@@ -329,7 +329,8 @@ App.pluginRegistry = {'4xAKTrabTpTzahoLthkwPNUn': 'plugins/explore.js',
 	'tickets': 'plugins/tickets.js', 'flow': 'plugins/flow.js',
 	'webcola': 'plugins/webcola/webcola.js', 'rnd': 'plugins/random.js',
 	'page': 'plugins/page.js', 'gd': 'plugins/googledrive.js',
-	'tags': 'plugins/tags.js'};
+	'tags': 'plugins/tags.js',
+	'cx': 'plugins/overlay_handler.js'};
 
 App.publicPlugin = [
 	'ex',
@@ -350,7 +351,8 @@ App.publicPlugin = [
 	'flow',
 	'webcola',
 //	'rnd', 'page', 'gd',
-	'tags'
+	'tags',
+	'cx'
 ];
 
 /**
